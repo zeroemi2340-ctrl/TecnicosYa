@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    text-align: center;
+}
+header {
+    background-color: #1e293b;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.hero {
+    padding: 80px 20px;
+}
+h1 {
+    font-size: 40px;
+    color: #1e293b;
+}
+.botones {
+    margin-top: 30px;
+}
+.btn-cliente, .btn-tecnico {
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+.btn-cliente {
+    background-color: #2563eb;
+    color: white;
+}
+.btn-tecnico {
+    background-color: #10b981;
+    color: white;
+}
